@@ -12,3 +12,9 @@ node_modules/
 
 # Build output
 dist/
+
+# Spring Boot
+target/
+*.class
+*.jar
+*.war
