@@ -1,12 +1,66 @@
-# React + Vite
+# Pizza Oregano - Restaurant Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Pizza Oregano is a modern restaurant web application designed initially for the "Pizza Oregano" takeaway. The project is built with scalability in mind, so the same codebase can be customized and used for different restaurants in the future.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Spring Boot, H2 Database (in-memory)
+- **Build tools:** Maven (backend), npm/yarn (frontend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive restaurant menu and ordering system
+- Backend API for order management
+- Easily customizable for different restaurants
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Java 17+ (for Spring Boot backend)
+- Node.js 16+ (for frontend)
+- Maven
+- Git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+## Running the Frontend
+
+1. Navigate to the frontend directory:  
+
+   ```bash
+   cd pizza-oregano-frontend
+   ```
+
+2. Install dependencies:  
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:  
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to [http://localhost:5173](http://localhost:5173) (default port for Vite)
+
+## Running the Backend
+
+1. Navigate to the backend directory:  
+
+   ```bash
+   cd pizza-oregano-backend
+   ```
+
+2. Run the Spring Boot application using Maven wrapper:  
+
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+3. The backend server will start by default on [http://localhost:8080](http://localhost:8080)
+
+### Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/EmreAlma/pizza-oregano.git
+   cd pizza-oregano
